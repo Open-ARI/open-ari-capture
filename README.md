@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/open-ari/openari-capture/actions/workflows/ci.yml"><img src="https://github.com/open-ari/openari-capture/actions/workflows/ci.yml/badge.svg?branch=main" alt="CI status"></a>
+  <a href="https://github.com/open-ari/open-ari-capture/actions/workflows/ci.yml"><img src="https://github.com/open-ari/open-ari-capture/actions/workflows/ci.yml/badge.svg?branch=main" alt="CI status"></a>
   <a href="docs/roadmap.md"><img src="https://img.shields.io/badge/status-design%20scaffold-orange" alt="Design scaffold status"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/open-ari/openari-capture" alt="Apache 2.0 license"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/open-ari/open-ari-capture" alt="Apache 2.0 license"></a>
   <a href="Cargo.toml"><img src="https://img.shields.io/badge/Rust-1.88%2B-000000?logo=rust&amp;logoColor=white" alt="Minimum supported Rust version: 1.88"></a>
   <a href="docs/architecture.md"><img src="https://img.shields.io/badge/docs-architecture-007D79" alt="Capture architecture"></a>
   <a href="https://github.com/sponsors/shoon"><img src="https://img.shields.io/badge/Sponsor-shoon-EA4AAA?logo=githubsponsors&amp;logoColor=white" alt="Sponsor shoon on GitHub"></a>
@@ -85,8 +85,8 @@ does not establish capture or verification functionality.
 | [Roadmap](docs/roadmap.md) | Milestones, dependencies, and release gates |
 | [Sources and decisions](docs/sources.md) | External evidence and unresolved design choices |
 
-Track implementation in [issues](https://github.com/open-ari/openari-capture/issues)
-and [milestones](https://github.com/open-ari/openari-capture/milestones).
+Track implementation in [issues](https://github.com/open-ari/open-ari-capture/issues)
+and [milestones](https://github.com/open-ari/open-ari-capture/milestones).
 See [CONTRIBUTING.md](CONTRIBUTING.md) for DCO sign-off and
 [SECURITY.md](SECURITY.md) for private vulnerability reporting.
 

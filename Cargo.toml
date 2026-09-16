@@ -8,7 +8,7 @@ edition = "2024"
 rust-version = "1.88"
 license = "Apache-2.0"
 authors = ["ncdents, LLC."]
-repository = "https://github.com/open-ari/openari-capture"
+repository = "https://github.com/open-ari/open-ari-capture"
 homepage = "https://openari.org"
 publish = false
 

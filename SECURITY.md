@@ -9,7 +9,7 @@ Older development snapshots are not maintained.
 
 ## Report a vulnerability
 
-Use [private vulnerability reporting](https://github.com/open-ari/openari-capture/security/advisories/new).
+Use [private vulnerability reporting](https://github.com/open-ari/open-ari-capture/security/advisories/new).
 Include the affected commit, reproduction, expected impact, and disclosure
 constraints. Do not open a public issue for suspected vulnerabilities.
 Use synthetic samples. Do not attach private photographs, device identities,
