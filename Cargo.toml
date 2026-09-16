@@ -1,0 +1,21 @@
+[workspace]
+members = ["crates/openari-capture", "crates/openari-capture-verify"]
+resolver = "3"
+
+[workspace.package]
+version = "0.1.0-dev.0"
+edition = "2024"
+rust-version = "1.88"
+license = "Apache-2.0"
+authors = ["ncdents, LLC."]
+repository = "https://github.com/open-ari/openari-capture"
+homepage = "https://openari.org"
+publish = false
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+overflow-checks = true

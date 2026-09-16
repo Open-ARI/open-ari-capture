@@ -1,0 +1,21 @@
+name: Security
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: '31 7 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  advisories:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - run: rustup show
+      - run: cargo install cargo-audit --version 0.22.2 --locked
+      - run: cargo audit --deny warnings
