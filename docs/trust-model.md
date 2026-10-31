@@ -44,8 +44,11 @@ behavior explicitly. Do not claim stronger time guarantees when evidence is abse
 
 ## Privacy
 
-Stable per-device public keys can link images. Minimize device identifiers and
-precise time/location disclosure. Choose identity and key-lifecycle requirements
-before promising anonymity. Rotation alone does not establish unlinkability.
+Stable per-device public keys can link images. Apple's design shows the
+trade-off: its raw negatives carry device-unique certificates, and anonymity
+for published images comes only from a central service re-signing them.
+An independent profile must state which of these models it uses. Minimize
+device identifiers and precise time/location disclosure. Choose identity and
+key-lifecycle requirements before promising anonymity. Rotation alone does not establish unlinkability.
 Capture and verification are local by default; remote timestamp or signing
 services require explicit configuration and a documented disclosure model.
